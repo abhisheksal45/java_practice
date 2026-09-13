@@ -4,6 +4,7 @@ public class abhi {
     Scanner sc=new Scanner(System.in);
     System.out.print("Enter no between 1 to 7");
     int day=sc.nextInt();
+    System.out.println("The day is: karan");
     switch (day) {
       case 1:
         System.out.println("Monday");
@@ -26,6 +27,8 @@ public class abhi {
       case 7:
         System.out.println("Sunday");
         break;
+
+      
     }
   }
 }
